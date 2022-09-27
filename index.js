@@ -16,3 +16,27 @@ let randomMessage = (arr1, arr2, arr3) => {
     return 'Random horoscope: ' + '\n' +'Your sign is ' + word1 + '\n' + 'You are having ' + word2 + '\n' + 'You should ' + word3;
 }
 console.log(randomMessage(sign,luckType, advice));
+
+const randomASC = () => {
+    let randomNumber = Math.floor(Math.random() * 3);
+    switch(randomNumber) {
+        case 0:
+            console.log("  |\\_\/|        \r\n \/ @ @ \\    \'  \r\n( > \u00BA < )    \r\n  >>x<<   ");
+            break;
+        case 1:
+            console.log("\r\n****************************  \r\n*  \"Purrrfectly pleasant\"  *  \r\n*       Poppy Prinz        *   \r\n*   (pprinz@example.com)   *\r\n****************************");
+            break;
+        case 2:
+            console.log("\r\n(\\_\/)\r\n(=\'.\'=)\r\n(\")_(\")\r\n\r\n");
+            break;
+        default:
+            consolelog('there was a problem!');
+            break;
+
+    }
+
+}
+console.log(randomASC());
+    
+
+
